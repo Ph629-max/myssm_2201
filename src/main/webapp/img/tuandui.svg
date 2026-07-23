@@ -1,0 +1,51 @@
+<svg width="128" height="128" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" baseProfile="tiny" style="font-size: 128px;">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0.933333,0.933333)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="#333333" fill-opacity="1" stroke="none" transform="matrix(7.99792,0,0,7.99792,0,-7.99792)" font-family="Arial" font-size="16" font-weight="400" font-style="normal">
+<path vector-effect="none" fill-rule="nonzero" d="M8,13 C8.088,13 8.169,12.98 8.256,12.974 C8.181,12.677 8.121,12.375 8.08,12.066 C8.076,12.036 8.07,12.007 8.066,11.976 C8.026,11.656 8,11.331 8,11 C8,10.733 8.014,10.469 8.04,10.208 C8.051,10.091 8.074,9.978 8.09,9.863 C8.11,9.724 8.126,9.584 8.153,9.447 C8.183,9.293 8.225,9.143 8.264,8.991 C8.288,8.9 8.307,8.808 8.334,8.718 C8.387,8.541 8.45,8.368 8.514,8.197 C8.535,8.14 8.554,8.082 8.577,8.025 C8.654,7.833 8.741,7.646 8.832,7.462 C8.848,7.431 8.861,7.399 8.877,7.368 C8.98,7.169 9.091,6.976 9.209,6.786 C9.217,6.773 9.224,6.76 9.232,6.747 C9.358,6.548 9.492,6.355 9.634,6.168 C9.636,6.166 9.637,6.164 9.639,6.162 C9.785,5.971 9.939,5.787 10.101,5.61 C9.489,5.229 8.773,5 8,5 C5.791,5 4,6.791 4,9 C4,11.209 5.791,13 8,13 M16,17 C19.314,17 22,14.314 22,11 C22,7.686 19.314,5 16,5 C12.686,5 10,7.686 10,11 C10,14.314 12.686,17 16,17 M16,7 C18.209,7 20,8.791 20,11 C20,13.209 18.209,15 16,15 C13.791,15 12,13.209 12,11 C12,8.791 13.791,7 16,7 M22.365,6.168 C22.507,6.355 22.642,6.548 22.767,6.747 C22.775,6.76 22.783,6.773 22.791,6.786 C22.909,6.975 23.02,7.169 23.122,7.368 C23.138,7.399 23.152,7.431 23.167,7.462 C23.258,7.647 23.345,7.833 23.422,8.025 C23.445,8.081 23.463,8.14 23.485,8.197 C23.549,8.369 23.613,8.541 23.665,8.718 C23.692,8.808 23.711,8.9 23.735,8.991 C23.774,9.142 23.816,9.292 23.846,9.447 C23.873,9.584 23.89,9.724 23.909,9.863 C23.925,9.978 23.948,10.091 23.959,10.208 C23.986,10.469 24,10.733 24,11 C24,11.331 23.974,11.656 23.934,11.977 C23.93,12.007 23.925,12.037 23.92,12.067 C23.879,12.376 23.819,12.679 23.744,12.975 C23.831,12.98 23.912,13 24,13 C26.209,13 28,11.209 28,9 C28,6.791 26.209,5 24,5 C23.227,5 22.511,5.23 21.899,5.61 C22.061,5.787 22.215,5.971 22.361,6.162 C22.362,6.164 22.364,6.166 22.365,6.168 M9.177,15.161 C9.162,15.136 9.146,15.111 9.131,15.086 C9.094,15.027 9.056,14.968 9.022,14.906 C8.69,14.965 8.349,15 8,15 C6.673,15 5.451,14.564 4.458,13.835 C1.819,15.142 0,17.855 0,21 L0,22 C0,22 1.815,22.449 4.219,22.746 C4.816,19.605 6.647,16.918 9.177,15.161 M21.596,16.712 C21.083,17.215 20.503,17.649 19.87,18 C22.332,19.364 24,21.986 24,25 L24,26 C24,26 20.025,27 16.037,27 C12.025,27 8,26 8,26 L8,25 C8,21.986 9.668,19.364 12.13,18 C11.497,17.649 10.917,17.215 10.404,16.712 C7.747,18.509 6,21.551 6,25 L6,27 C6,27 11.013,29 16.019,29 C21.013,29 26,27 26,27 L26,25 C26,21.551 24.253,18.509 21.596,16.712 M27.542,13.835 C26.549,14.564 25.327,15 24,15 C23.651,15 23.31,14.965 22.978,14.906 C22.929,14.993 22.875,15.076 22.823,15.161 C25.355,16.919 27.186,19.608 27.782,22.751 C30.186,22.455 32,22 32,22 L32,21 C32,17.855 30.181,15.142 27.542,13.835 "></path>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0,0)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.0666667,0,0,0.0666667,0.933333,0.933333)" font-family="微软雅黑" font-size="12" font-weight="400" font-style="normal">
+</g>
+</g>
+</svg>

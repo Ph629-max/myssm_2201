@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bigdata.dao.EmpDao">
+    <sql id="SELECT-TABLE"><!-- 定义SQL片段 -->
+        SELECT *
+        FROM tb_emp
+    </sql>
+
+    <select id="selectById" resultType="Emp" parameterType="int">
+        <include refid="SELECT-TABLE"/> <!-- 通过ID引用SQL片段 -->
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectMaxId" resultType="int">
+        SELECT max(id)
+        FROM tb_emp
+    </select>
+
+    <select id="selectMinId" resultType="int">
+        SELECT min(id)
+        FROM tb_emp
+    </select>
+
+    <select id="selectByName" resultType="Emp" parameterType="String">
+        <include refid="SELECT-TABLE"/>
+        WHERE username = #{username}
+    </select>
+
+    <select id="selectList" resultType="Emp">
+        <include refid="SELECT-TABLE"/>
+    </select>
+
+    <select id="selectListByKey" resultType="Emp">
+        <include refid="SELECT-TABLE"/>
+        WHERE username LIKE concat('%', #{key}, '%')
+    </select>
+
+    <!--#{} 以及 ${}；两者都是动态的向sql语句中传入需要的参数。-->
+    <!-- #传入的参数在SQL中显示为字符串（当成一个字符串），会对自动传入的数据加一个双引号。-->
+    <select id="selectByDepidAndSalary" resultType="Emp">
+        <include refid="SELECT-TABLE"/>
+        WHERE depid = #{depid} AND salary ${operator} #{salary}
+    </select>
+
+    <delete id="deleteById" parameterType="int">
+        DELETE
+        FROM tb_emp
+        WHERE id = #{id}
+    </delete>
+
+    <insert id="insertOne">
+        INSERT INTO tb_emp(username, salary, age, depid)
+        VALUES (#{username}, #{salary}, #{age}, #{depid})
+    </insert>
+
+    <update id="updateOne">
+        UPDATE tb_emp
+        SET username = #{username},
+            age      = #{age},
+            salary   = #{salary},
+            depid    = #{depid}
+        WHERE id = #{id}
+    </update>
+
+    <select id="selectListByCondition" resultType="Emp">
+        SELECT *
+        FROM tb_emp
+        <where>
+            <if test="id != null"> <!-- WHERE，会自动忽略前后缀（如：and | or） -->
+                and id = #{id}
+            </if>
+
+            <if test="username != null">
+                and username = #{username}
+            </if>
+
+            <if test="age != null">
+                and age = #{age}
+            </if>
+
+            <if test="salary != null">
+                and salary = #{salary}
+            </if>
+
+            <if test="depid != null">
+                and depid = #{depid}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateByCondition">
+        UPDATE tb_emp
+        <set>
+            <if test="username != null"><!-- set子句中满足条件的if，会自动忽略后缀（如：,） -->
+                username = #{username} ,
+            </if>
+
+            <if test="salary != null">
+                salary = #{salary} ,
+            </if>
+
+            <if test="age != null">
+                age = #{age} ,
+            </if>
+
+            <if test="depid != null">
+                depid = #{depid} ,
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteInIds">
+        delete from tb_emp where id in
+        <foreach collection="list" open="(" close=")" separator="," item="id" >
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>

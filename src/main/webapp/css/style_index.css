@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: url("../img/dengrubeijin.jpg") no-repeat;
+}
+
+/*header部分=========================================*/
+header h1 {
+    width: 17.1rem;
+    height: 4.6rem;
+    background: url("../img/tuandui.svg") no-repeat;
+    margin: 0 auto;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+/*main部分=========================================*/
+#main {
+    width: 55%;
+    background: #FFF;
+    border-radius: 1rem;
+    margin: 0 auto;
+    display: flex;
+    /*border:solid 1px red;*/
+}
+
+/*main-left 部分=========================================*/
+#main-left {
+    width: 40%;
+}
+
+#main-left img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/*main-right 部分=========================================*/
+#main-right {
+    width: 60%;
+}
+
+#main-right fieldset {
+    text-align: center;
+    width: 10rem;
+    border: 0;
+    border-top: solid 3px black;
+    margin: 3rem auto;
+}
+
+#main-right fieldset legend {
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+#main-right fieldset span {
+    color: darkgray;
+}
+
+/*form表单部分===============================*/
+
+#main-right form {
+    padding: 0 3rem;
+}
+
+#main-right form .input-group {
+    height: 4.5rem;
+    /*line-height: 4.5px;*/
+    border: 0;
+    border-bottom: solid 1px #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#main-right form .input-group input {
+    width: 60%;
+    height: 60%;
+    border: 0;
+    padding: 0 2.5rem;
+}
+
+#main-right form .input-group img {
+    height: 3rem;
+    cursor: pointer;
+}
+
+#main-right form .input-group1 {
+    height:4.5rem;
+    border:0;
+    border-bottom:solid 1px #E5E5E5;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#main-right form .input-group1 span {
+    font-size: 1.3rem;
+    color: #777;
+}
+
+#main-right form .input-group1 input {
+    margin:0 1rem;
+}
+
+#main-right form .read {
+    justify-content: flex-start;
+}
+
+#main-right form .input-group #confirm {
+    width: 30px;
+}
+
+#alert {
+    height: 3rem;
+    font-size: 2rem;
+}
+
+#main-right a {
+    color: lightseagreen;
+}
+
+
+#main-right button {
+    background: lightseagreen;
+    border: 0;
+    width: 8rem;
+    height: 3rem;
+    color: #FFF;
+    border-radius: 1.5rem;
+}
+
+#main-right .input-group:first-child input {
+    background: url("../img/icon001.png") left center no-repeat;
+    background-size: 1.5rem;
+}
+
+#main-right .input-group:nth-child(2) input {
+    background: url("../img/icon002.png") left center no-repeat;
+    background-size: 1.5rem;
+}
+
+#main-right .input-group:nth-child(3) input {
+    background: url("../img/icon002.png") left center no-repeat;
+    background-size: 1.5rem;
+}
+
+#main-right .input-group:nth-child(4) input {
+    background: url("../img/icon003.png") left center no-repeat;
+    background-size: 1.5rem;
+}
+
+#main-right .input-group:nth-child(5) input {
+    background: url("../img/icon003.png") left center no-repeat;
+    background-size: 1.5rem;
+}
+
+/*media query ===================================*/
+@media only screen and (max-width: 768px) {
+    #main-left {
+        width: 0;
+    }
+
+    #main-right {
+        width: 100%;
+    }
+}
+
