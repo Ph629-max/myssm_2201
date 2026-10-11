@@ -1,0 +1,29 @@
+# ---- build output ----
+target/
+build/
+out/
+*.class
+*.war
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---- IDE ----
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+*.launch
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- logs ----
+*.log
+logs/
+
+# ---- local config (never commit real credentials) ----
+*.local
+application-local.properties
